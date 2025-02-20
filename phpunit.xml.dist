@@ -5,7 +5,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
 
-	cacheDirectory=".phpunit.cache"
+	cacheDirectory=".phpunit/.cache/"
 	backupGlobals="false"
 	beStrictAboutTestsThatDoNotTestAnything="true"
 	beStrictAboutOutputDuringTests="true"
@@ -15,6 +15,12 @@
 	<php>
 		<ini name="memory_limit" value="512M" />
 	</php>
+	<!--
+		enable below if you need finer-tuned coverage, which includes
+		line coverage, branch coverage, and path coverage data
+		see: https://docs.phpunit.de/en/12.0/configuration.html#the-pathcoverage-attribute
+	-->
+	<!-- <coverage pathCoverage="true" /> -->
 	<source>
 		<include>
 			<directory suffix=".php">src</directory>

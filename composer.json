@@ -32,8 +32,8 @@
 			"phpcs -p -s"
 		],
 		"phpunit": "./vendor/bin/phpunit tests",
-		"phpunit:xml": "@phpunit --coverage-clover coverage.xml",
-		"phpunit:html": "@phpunit --coverage-html coverage",
+		"phpunit:xml": "@phpunit --coverage-clover .phpunit/coverage.xml",
+		"phpunit:html": "@phpunit --coverage-html .phpunit/html/",
 		"fix": [
 			"minus-x fix .",
 			"phpcbf"

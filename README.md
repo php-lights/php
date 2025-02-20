@@ -48,7 +48,7 @@ Delete this `README.md`, and rename [`LIBRARY.md`](./LIBRARY.md) to `README.md`.
 | ---- | ---- | ------------- |
 | Composer package | [`composer.json`](./composer.json) | [docs](https://getcomposer.org/doc/04-schema.md), [website](https://getcomposer.org/), [repo](https://github.com/composer/composer) |
 | PHPCS (formatter + linter) | [`.phpcs.xml`](./.phpcs.xml) | [docs](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#using-a-default-configuration-file), [repo](https://github.com/squizlabs/PHP_CodeSniffer) |
-| PHPUnit (unit testing) | [`.phpunit.xml.dist`](./.phpunit.xml.dist) | [docs](https://phpunit.readthedocs.io/en/11.5/configuration.html), [website](https://phpunit.de/), [repo](https://github.com/sebastianbergmann/phpunit) |
+| PHPUnit (unit testing) | [`phpunit.xml.dist`](./phpunit.xml.dist) | [docs](https://phpunit.readthedocs.io/en/12.0/configuration.html), [website](https://phpunit.de/), [repo](https://github.com/sebastianbergmann/phpunit) |
 | phpdoc (documentation generator) | [`phpdoc.dist.xml`](./phpdoc.dist.xml) | [docs](https://docs.phpdoc.org/3.0/guide/references/configuration.html), [website](https://www.phpdoc.org/), [repo](https://github.com/phpdocumentor/phpdocumentor) |
 | Dependabot | [`.github/dependabot.yml`](./.github/dependabot.yml) | [docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file), [website](https://github.com/dependabot) |
 
