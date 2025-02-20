@@ -5,19 +5,21 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
 
+	cacheDirectory=".phpunit.cache"
 	backupGlobals="false"
 	beStrictAboutTestsThatDoNotTestAnything="true"
 	beStrictAboutOutputDuringTests="true"
-	convertErrorsToExceptions="true"
-	convertNoticesToExceptions="true"
-	convertWarningsToExceptions="true"
-	forceCoversAnnotation="true"
 	failOnWarning="true"
 	stopOnFailure="false"
-	verbose="false">
+	>
 	<php>
 		<ini name="memory_limit" value="512M" />
 	</php>
+	<source>
+		<include>
+			<directory suffix=".php">src</directory>
+		</include>
+	</source>
 	<testsuites>
 		<testsuite name="Unit">
 			<directory suffix="Test.php">./tests</directory>

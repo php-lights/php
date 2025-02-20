@@ -10,7 +10,7 @@ This repository makes it easier to develop a PHP application or library by provi
 
 ## Features
 
-- [x] [PHP 8.2+](https://www.php.net/releases/8.2/en.php) support
+- [x] [PHP 8.3+](https://www.php.net/releases/8.3/en.php) support
 - [x] *Unit testing* with [PHPUnit](https://github.com/sebastianbergmann/phpunit/) ([official website](https://phpunit.de/))
 - [x] Validates PHP syntax with [php-parallel-lint](https://github.com/php-parallel-lint/PHP-Parallel-Lint)
 - [x] Lint and auto-format PHP code with [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) (PHPCS)

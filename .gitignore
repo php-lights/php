@@ -21,6 +21,10 @@ docs/cache/
 # code coverage
 coverage
 coverage.*
+clover.xml
+
+# PHPStorm
+.idea
 
 # PHPActor LSP
 .phpactor.json
