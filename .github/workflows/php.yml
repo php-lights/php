@@ -47,4 +47,4 @@ jobs:
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         verbose: true
-        files: coverage.xml
+        files: .phpunit/coverage.xml
