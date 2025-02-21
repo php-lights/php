@@ -31,7 +31,7 @@
 			"minus-x check .",
 			"phpcs -p -s"
 		],
-		"phpunit": "./vendor/bin/phpunit tests",
+		"phpunit": "phpunit tests",
 		"phpunit:xml": "@phpunit --coverage-clover .phpunit/coverage.xml",
 		"phpunit:html": "@phpunit --coverage-html .phpunit/html/",
 		"fix": [
