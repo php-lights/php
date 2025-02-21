@@ -5,12 +5,22 @@ vendor/
 # NPM
 node_modules/
 
-# user-configured files
 # PHPUnit
+.phpunit/
 phpunit.xml
 .phpunit.xml
 .phpunit.cache
 .phpunit.result.cache
+
+## PHPUnit code coverage
+coverage
+coverage.*
+clover.xml
+crap4j.xml
+html-coverage/
+coverage.php
+coverage.txt
+xml-coverage/
 
 # phpDocumentor
 .phpdoc
@@ -18,9 +28,8 @@ phpdoc.xml
 docs/build/
 docs/cache/
 
-# code coverage
-coverage
-coverage.*
+# PHPStorm
+.idea
 
 # PHPActor LSP
 .phpactor.json
