@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# enable syntax highlighting with closest language
+# available for Doxygen's configuration file
+Doxyfile linguist-language=INI
