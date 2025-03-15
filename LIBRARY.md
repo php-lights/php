@@ -5,10 +5,10 @@
 
 [license-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license-url]: #license
-[docs-badge]: https://img.shields.io/github/deployments/neoncitylights/php-template/github-pages?label=docs&style=flat-square
-[docs-url]: https://neoncitylights.github.io/php/
-[ci-badge]: https://img.shields.io/github/actions/workflow/status/neoncitylights/php/.github/workflows/php.yml?style=flat-square
-[ci-url]: https://github.com/neoncitylights/php/actions/workflows/php.yml
+[docs-badge]: https://img.shields.io/github/deployments/php-lights/php/github-pages?label=docs&style=flat-square
+[docs-url]: https://php-lights.github.io/php/
+[ci-badge]: https://img.shields.io/github/actions/workflow/status/php-lights/php/.github/workflows/php.yml?style=flat-square
+[ci-url]: https://github.com/php-lights/php/actions/workflows/php.yml
 
 Describe the library.
 
@@ -19,10 +19,10 @@ composer install author/package
 
 ## Usage
 ```php
-use Neoncitylights\ExampleLibrary\Dog;
+use Neoncitylights\ExampleLibrary\HelloWorld;
 
-$dog = new Dog();
-$dog->bark(); // "Woof!"
+$greet1 = HelloWorld::greet(); // 'Hello World'
+$greet2 = HelloWorld::greet( 'Bob' ); // 'Hello Bob'
 ```
 
 ## License
